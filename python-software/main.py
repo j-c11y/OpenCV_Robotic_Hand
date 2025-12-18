@@ -10,7 +10,7 @@ from src.serial_worker import serial_worker
 from src.angles import get_finger_angles
 
 # ===================== Serial Setup =====================
-SERIAL_PORT = "/dev/tty.usbmodem1101"
+SERIAL_PORT = "/dev/tty.usbmodem101"
 BAUD_RATE = 9600
 serial_queue = queue.Queue()
 
